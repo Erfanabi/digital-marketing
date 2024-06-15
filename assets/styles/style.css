@@ -39,6 +39,15 @@ button {
   background-color: #1a093f;
 }
 
+.btn--secondry {
+  font-size: 13px;
+  color: #fe4950;
+  font-weight: 700;
+  background-color: rgba(254, 73, 80, 0.2);
+  border-radius: 50px 0 50px 50px;
+  padding: 5px 25px;
+}
+
 /* --------- */
 
 .container {
@@ -201,7 +210,7 @@ button {
   align-items: center;
   gap: 20px;
   padding: 10px;
-  margin-bottom: 200px;
+  margin-bottom: 180px;
 }
 
 .fave-company .title {
@@ -228,4 +237,119 @@ button {
 
 .fave-company .img-company img:hover {
   transform: scale(1.1);
+}
+
+/* -----specialty----- */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: start;
+  margin-bottom: 180px;
+}
+
+.services .our {
+  font-size: 13px;
+  color: #fe4950;
+  font-weight: 700;
+  background-color: rgba(254, 73, 80, 0.2);
+  border-radius: 50px 0 50px 50px;
+  padding: 5px 25px;
+}
+
+.services-header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services-header p {
+  color: #1a093f;
+  line-height: 1.3;
+  font-size: 32px;
+  max-width: 500px;
+  font-weight: 600;
+}
+
+.specialty-header button {
+  color: #1a093f;
+  line-height: 1.3;
+}
+
+.services-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 10px;
+}
+
+.service {
+  text-align: right;
+  padding: 30px 50px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  /* box-shadow: 0 53px 79px 0 rgba(26, 9, 63, 0.15); */
+}
+
+.service_img {
+  margin-bottom: 30px;
+}
+
+.service_text,
+.service_text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service_text h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.service.primary {
+  box-shadow: 0 53px 79px 0 rgba(26, 9, 63, 0.15) !important;
+}
+
+/* --- team --- */
+
+.team {
+  background-image: url(../image/row-bg-2.png);
+  /* background-position: bottom left; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* padding: 0 10%; */
+  padding: 150px 0 200px 0;
+}
+
+.team-body {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.team-image {
+  width: 50%;
+  text-align: center;
+}
+
+.team-image img {
+  max-width: 90%;
+}
+
+.team-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+}
+
+.team-content h3 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #1a093f;
+  line-height: 1.3;
 }
